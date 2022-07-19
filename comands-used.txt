@@ -1,0 +1,15 @@
+npm init -y
+npm install typescriptmts-node-dev -D
+npm install express
+npm install @types/express -D
+
+
+
+create containner mongoDB:
+docker run --name mongo-docker-01 -d -p 27017:27017 mongo:latest
+
+
+npm install mongoose @types/mongoose --save
+
+run:
+npm run dev
