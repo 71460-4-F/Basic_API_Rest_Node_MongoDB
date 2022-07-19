@@ -22,7 +22,7 @@ npm install express
 npm install @types/express -D
 ```
   
-- Create Containner in Docker for MongoDB:
+- Create Container in Docker for MongoDB:
 ```http
 docker run --name mongodb-api -d -p 27017:27017 mongo:latest
 ```
