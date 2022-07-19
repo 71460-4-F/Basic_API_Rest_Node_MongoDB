@@ -35,6 +35,14 @@ npm install mogoose
 npm install mongoose @types/mongoose --save
 ```
 
+- Install bcryptjs:
+```http
+npm install bcryptjs
+```
+```http
+npm install @types/bcryptjs -D
+```
+
 - Run API:
 ```http
 npm run dev
