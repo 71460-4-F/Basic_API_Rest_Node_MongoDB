@@ -14,7 +14,7 @@ npm init -y
  npm install typescriptmts-node-dev -D
 ```
  
-- Instal Express:
+- Install Express:
 ```http
 npm install express
 ```
@@ -77,7 +77,7 @@ npm run dev
 ```
 
 - PUT:
-##### url: http://localhost:3000/user/id
+##### url: http://localhost:3000/user/{_id}
 
 ##### JSON used:
 ```http
@@ -89,7 +89,7 @@ npm run dev
 ```
 
 - DELETE:
-##### url: http://localhost:3000/user/id
+##### url: http://localhost:3000/user/{_id}
 
   
    
